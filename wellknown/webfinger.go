@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/davecheney/pub/activitypub"
-	"github.com/davecheney/pub/internal/httpx"
-	"github.com/davecheney/pub/internal/to"
-	"github.com/davecheney/pub/internal/webfinger"
-	"github.com/davecheney/pub/models"
+	"github.com/bardic/pub/activitypub"
+	"github.com/bardic/pub/internal/httpx"
+	"github.com/bardic/pub/internal/to"
+	"github.com/bardic/pub/internal/webfinger"
+	"github.com/bardic/pub/models"
 	"gorm.io/gorm"
 )
 

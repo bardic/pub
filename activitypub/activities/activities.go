@@ -1,7 +1,7 @@
 package activities
 
 import (
-	"github.com/davecheney/pub/models"
+	"github.com/bardic/pub/models"
 )
 
 const (

@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/davecheney/pub/activitypub"
-	"github.com/davecheney/pub/mastodon"
-	"github.com/davecheney/pub/models"
+	"github.com/bardic/pub/activitypub"
+	"github.com/bardic/pub/mastodon"
+	"github.com/bardic/pub/models"
 	"github.com/go-json-experiment/json"
 	"gorm.io/gorm"
 )

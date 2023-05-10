@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/davecheney/pub/activitypub"
-	"github.com/davecheney/pub/models"
+	"github.com/bardic/pub/activitypub"
+	"github.com/bardic/pub/models"
 	"golang.org/x/exp/slog"
 	"gorm.io/gorm"
 )

@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/davecheney/pub/internal/httpx"
-	"github.com/davecheney/pub/internal/snowflake"
-	"github.com/davecheney/pub/models"
+	"github.com/bardic/pub/internal/httpx"
+	"github.com/bardic/pub/internal/snowflake"
+	"github.com/bardic/pub/models"
 	"github.com/go-fed/httpsig"
 	"github.com/go-json-experiment/json"
 	"golang.org/x/exp/slog"

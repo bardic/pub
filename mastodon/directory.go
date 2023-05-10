@@ -3,9 +3,9 @@ package mastodon
 import (
 	"net/http"
 
-	"github.com/davecheney/pub/internal/algorithms"
-	"github.com/davecheney/pub/internal/to"
-	"github.com/davecheney/pub/models"
+	"github.com/bardic/pub/internal/algorithms"
+	"github.com/bardic/pub/internal/to"
+	"github.com/bardic/pub/models"
 	"gorm.io/gorm"
 )
 

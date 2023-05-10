@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/davecheney/pub/internal/algorithms"
-	"github.com/davecheney/pub/internal/httpx"
-	"github.com/davecheney/pub/internal/snowflake"
-	"github.com/davecheney/pub/internal/to"
-	"github.com/davecheney/pub/models"
+	"github.com/bardic/pub/internal/algorithms"
+	"github.com/bardic/pub/internal/httpx"
+	"github.com/bardic/pub/internal/snowflake"
+	"github.com/bardic/pub/internal/to"
+	"github.com/bardic/pub/models"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-json-experiment/json"
 )

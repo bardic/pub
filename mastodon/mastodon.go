@@ -8,10 +8,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/davecheney/pub/internal/httpx"
-	"github.com/davecheney/pub/internal/snowflake"
-	"github.com/davecheney/pub/internal/streaming"
-	"github.com/davecheney/pub/models"
+	"github.com/bardic/pub/internal/httpx"
+	"github.com/bardic/pub/internal/snowflake"
+	"github.com/bardic/pub/internal/streaming"
+	"github.com/bardic/pub/models"
 	"golang.org/x/exp/slog"
 	"gorm.io/gorm"
 )

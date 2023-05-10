@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/davecheney/pub/internal/streaming"
-	"github.com/davecheney/pub/models"
+	"github.com/bardic/pub/internal/streaming"
+	"github.com/bardic/pub/models"
 	"github.com/go-json-experiment/json"
 	"golang.org/x/net/websocket"
 )

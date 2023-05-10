@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/davecheney/pub/internal/snowflake"
+	"github.com/bardic/pub/internal/snowflake"
 	"github.com/stretchr/testify/require"
 )
 

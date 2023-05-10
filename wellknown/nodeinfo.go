@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/davecheney/pub/activitypub"
-	"github.com/davecheney/pub/internal/httpx"
-	"github.com/davecheney/pub/internal/to"
-	"github.com/davecheney/pub/models"
+	"github.com/bardic/pub/activitypub"
+	"github.com/bardic/pub/internal/httpx"
+	"github.com/bardic/pub/internal/to"
+	"github.com/bardic/pub/models"
 	"github.com/go-chi/chi/v5"
 	"gorm.io/gorm"
 )
@@ -44,7 +44,7 @@ func NodeInfoShow(env *activitypub.Env, w http.ResponseWriter, r *http.Request) 
 		return to.JSON(w, map[string]any{
 			"version": "2.0",
 			"software": map[string]any{
-				"name":    "https://github.com/davecheney/pub",
+				"name":    "https://github.com/bardic/pub",
 				"version": "0.0.0-devel",
 			},
 			"protocols":         protocols(),
@@ -60,7 +60,7 @@ func NodeInfoShow(env *activitypub.Env, w http.ResponseWriter, r *http.Request) 
 			"software": map[string]any{
 				"name":       "pub",
 				"version":    "0.0.0-devel",
-				"repository": "https://github.com/davecheney/pub",
+				"repository": "https://github.com/bardic/pub",
 			},
 			"protocols":         protocols(),
 			"services":          services(),

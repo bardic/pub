@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/davecheney/pub/internal/crypto"
-	"github.com/davecheney/pub/internal/snowflake"
+	"github.com/bardic/pub/internal/crypto"
+	"github.com/bardic/pub/internal/snowflake"
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"
 )
@@ -65,7 +65,7 @@ func (i *Instances) Create(domain, title, description, adminEmail string) (*Inst
 		instance = Instance{
 			ID:               snowflake.Now(),
 			Domain:           domain,
-			SourceURL:        "https://github.com/davecheney/pub",
+			SourceURL:        "https://github.com/bardic/pub",
 			Title:            title,
 			ShortDescription: description,
 			Description:      description,

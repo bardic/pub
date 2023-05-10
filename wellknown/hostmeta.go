@@ -4,7 +4,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/davecheney/pub/activitypub"
+	"github.com/bardic/pub/activitypub"
 )
 
 func HostMetaIndex(env *activitypub.Env, w http.ResponseWriter, r *http.Request) error {

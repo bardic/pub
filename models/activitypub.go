@@ -1,6 +1,6 @@
 package models
 
-import "github.com/davecheney/pub/internal/snowflake"
+import "github.com/bardic/pub/internal/snowflake"
 
 // activitypub support tables
 

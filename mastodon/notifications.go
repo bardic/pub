@@ -3,7 +3,7 @@ package mastodon
 import (
 	"net/http"
 
-	"github.com/davecheney/pub/internal/to"
+	"github.com/bardic/pub/internal/to"
 )
 
 func NotificationsIndex(env *Env, w http.ResponseWriter, r *http.Request) error {

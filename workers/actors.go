@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/carlmjohnson/requests"
-	"github.com/davecheney/pub/activitypub"
-	"github.com/davecheney/pub/internal/webfinger"
-	"github.com/davecheney/pub/models"
+	"github.com/bardic/pub/activitypub"
+	"github.com/bardic/pub/internal/webfinger"
+	"github.com/bardic/pub/models"
 	"golang.org/x/exp/slog"
 	"gorm.io/gorm"
 )

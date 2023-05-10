@@ -11,8 +11,8 @@ import (
 	"net/http"
 
 	"github.com/carlmjohnson/requests"
-	"github.com/davecheney/pub/internal/httpsig"
-	"github.com/davecheney/pub/models"
+	"github.com/bardic/pub/internal/httpsig"
+	"github.com/bardic/pub/models"
 )
 
 // Client is an ActivityPub client which can be used to fetch remote

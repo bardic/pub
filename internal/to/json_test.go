@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/davecheney/pub/internal/to"
+	"github.com/bardic/pub/internal/to"
 	"github.com/stretchr/testify/require"
 )
 

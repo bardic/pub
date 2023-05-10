@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 
-	"github.com/davecheney/pub/activitypub"
-	"github.com/davecheney/pub/models"
+	"github.com/bardic/pub/activitypub"
+	"github.com/bardic/pub/models"
 	"gorm.io/gorm"
 )
 

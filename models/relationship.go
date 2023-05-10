@@ -3,7 +3,7 @@ package models
 import (
 	"fmt"
 
-	"github.com/davecheney/pub/internal/snowflake"
+	"github.com/bardic/pub/internal/snowflake"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 	"gorm.io/gorm/schema"

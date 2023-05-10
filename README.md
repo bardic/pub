@@ -1,6 +1,6 @@
 # pub, a tiny ActivityPub to Mastodon bridge
     
-[![Go Reference](https://pkg.go.dev/badge/github.com/davecheney/pub.svg)](https://pkg.go.dev/github.com/davecheney/pub) [![Go Report Card](https://goreportcard.com/badge/github.com/davecheney/pub)](https://goreportcard.com/report/github.com/davecheney/pub)
+[![Go Reference](https://pkg.go.dev/badge/github.com/bardic/pub.svg)](https://pkg.go.dev/github.com/bardic/pub) [![Go Report Card](https://goreportcard.com/badge/github.com/bardic/pub)](https://goreportcard.com/report/github.com/bardic/pub)
     
 ## What is pub?
 
@@ -38,13 +38,13 @@ Install `pub`:
 #### For Mysql/MariaDB
 
 ```bash
-go install -tags mysql github.com/davecheney/pub@latest
+go install -tags mysql github.com/bardic/pub@latest
 ```
 
 #### For Sqlite
 
 ```bash
-go install -tags sqlite github.com/davecheney/pub@latest
+go install -tags sqlite github.com/bardic/pub@latest
 ```
 
 Create/migrate the database:
@@ -102,7 +102,7 @@ See the [examples](examples) directory for sample configurations for [nginx](exa
 `pub` is currently open to code contributions for bug fixes _only_.
 This may change in the future, but at the moment please do not send pull requests with new features.
 
-If you have a feature request, or a bug report, please open an [issue](https://github.com/davecheney/pub/issues/new).
+If you have a feature request, or a bug report, please open an [issue](https://github.com/bardic/pub/issues/new).
 If you're _really_ adventurous, you can contact me via [`@dfc@cheney.net`](acct:dfc@cheney.net).
 
 Thank you in advance for your understanding.

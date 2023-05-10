@@ -7,12 +7,12 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/davecheney/pub/activitypub/activities"
-	"github.com/davecheney/pub/internal/algorithms"
-	"github.com/davecheney/pub/internal/httpx"
-	"github.com/davecheney/pub/internal/streaming"
-	"github.com/davecheney/pub/internal/to"
-	"github.com/davecheney/pub/models"
+	"github.com/bardic/pub/activitypub/activities"
+	"github.com/bardic/pub/internal/algorithms"
+	"github.com/bardic/pub/internal/httpx"
+	"github.com/bardic/pub/internal/streaming"
+	"github.com/bardic/pub/internal/to"
+	"github.com/bardic/pub/models"
 	"github.com/go-chi/chi/v5"
 	"gorm.io/gorm"
 

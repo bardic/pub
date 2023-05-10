@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/davecheney/pub/internal/crypto"
-	"github.com/davecheney/pub/internal/snowflake"
+	"github.com/bardic/pub/internal/crypto"
+	"github.com/bardic/pub/internal/snowflake"
 	"github.com/stretchr/testify/require"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"

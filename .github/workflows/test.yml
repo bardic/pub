@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-go@v3
         with:
           go-version: stable
-      - name: Install database 
+      - name: Install database
         if: ${{ matrix.database == 'mariadb' }}
         uses: ankane/setup-mariadb@v1
         with:
@@ -30,7 +30,7 @@ jobs:
         run: |
           echo "dsn=pub.db" >> $GITHUB_ENV
       - name: Install pub
-        run: go install -v --tags ${{ matrix.database }} github.com/davecheney/pub
+        run: go install -v --tags ${{ matrix.database }} github.com/bardic/pub
       - name: Init database
         run: |
           pub --log-sql --dsn ${{ env.dsn }} auto-migrate

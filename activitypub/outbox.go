@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/davecheney/pub/internal/algorithms"
-	"github.com/davecheney/pub/internal/to"
-	"github.com/davecheney/pub/models"
+	"github.com/bardic/pub/internal/algorithms"
+	"github.com/bardic/pub/internal/to"
+	"github.com/bardic/pub/models"
 	"github.com/go-chi/chi/v5"
 )
 

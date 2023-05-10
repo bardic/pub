@@ -3,9 +3,9 @@ package mastodon
 import (
 	"net/http"
 
-	"github.com/davecheney/pub/internal/httpx"
-	"github.com/davecheney/pub/internal/to"
-	"github.com/davecheney/pub/models"
+	"github.com/bardic/pub/internal/httpx"
+	"github.com/bardic/pub/internal/to"
+	"github.com/bardic/pub/models"
 )
 
 func PreferencesShow(env *Env, w http.ResponseWriter, r *http.Request) error {
