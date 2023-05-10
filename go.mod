@@ -1,4 +1,4 @@
-module github.com/davecheney/pub
+module github.com/bardic/pub
 
 go 1.20
 
